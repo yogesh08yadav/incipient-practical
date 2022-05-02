@@ -5,6 +5,7 @@ import Home from "./compnents/Home/index";
 
 function App() {
   return (
+    
     <Router>
       <Switch>
         <Route path='/' exact component={Home} />
